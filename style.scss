@@ -288,6 +288,8 @@ footer {
 .flip-container
 {
     perspective: 1000;
+    float: left;
+    margin: 20px;
 }
 .flip-container:hover .flipper, .flip-container.hover .flipper {
     transform: rotateY(180deg);
@@ -296,12 +298,14 @@ footer {
 	width: 320px;
 	height: 480px;
 }
+.flip-container:nth-child(odd) .front {
+	background: #00AA00;
+}
 
 /* flip speed goes here */
 .flipper {
 	transition: 0.6s;
 	transform-style: preserve-3d;
-
 	position: relative;
 }
 
