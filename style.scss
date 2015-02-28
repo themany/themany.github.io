@@ -283,6 +283,54 @@ footer {
   text-align: center;
 }
 
+/*FLIP!*/
+
+.flip-container
+{
+    perspective: 1000;
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front
+{
+    box-sizing: border-box;
+    color: white;
+    padding: 20px;
+    *background: url('http://upload.wikimedia.org/wikipedia/commons/a/a2/Marx_old.jpg');
+    background: #AA0000;
+    background-size: cover;
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
