@@ -12,7 +12,8 @@ layout: default
         </div>
         <div class='back'>
           <div class="entry">
-            {{ post.content | truncatewords:100}}
+            <h3>{{ post.title }}</h3>
+            {{ post.content | truncatewords:80}}
           </div>
           <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
         </div>
