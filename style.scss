@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  //font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
 
@@ -319,15 +319,16 @@ footer {
 }
 .front
 {
-    box-sizing: border-box;
-    color: white;
-    padding: 20px;
-    *background: url('http://upload.wikimedia.org/wikipedia/commons/a/a2/Marx_old.jpg');
-    background: #AA0000;
-    background-size: cover;
+	box-sizing: border-box;
+	color: white;
+	padding: 20px;
+	*background: url('http://upload.wikimedia.org/wikipedia/commons/a/a2/Marx_old.jpg');
+	background: #AA0000;
+	background-size: cover;
 	z-index: 2;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
+	box-shadow: 7px 8px 15px -2px rgba(0,0,0,0.2);
 }
 
 /* back, initially hidden pane */
