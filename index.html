@@ -1,23 +1,27 @@
 ---
 layout: default
 ---
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post flip-container">
-
-      <div class='flipper'>
-        <div class='front'>
-          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-        </div>
-        <div class='back'>
-          <div class="entry">
-            <h3>{{ post.title }}</h3>
-            {{ post.content | truncatewords:80}}
+<div class="parallax">
+  <div class="parallax__layer parallax__layer--back"></div>
+  <div class="parallax__layer parallax__layer--base">
+    <div class="posts">
+      {% for post in site.posts %}
+        <article class="post flip-container">
+    
+          <div class='flipper'>
+            <div class='front'>
+              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+            </div>
+            <div class='back'>
+              <div class="entry">
+                <h3>{{ post.title }}</h3>
+                {{ post.content | truncatewords:80}}
+              </div>
+              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+            </div>
           </div>
-          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        </div>
-      </div>
-    </article>
-  {% endfor %}
+        </article>
+      {% endfor %}
+    </div>
+  </div>
 </div>
