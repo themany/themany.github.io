@@ -252,6 +252,7 @@ nav {
 {
 	max-width: 740px;
 	margin:auto;
+	overflow:hidden;
 }
 
 .posts > .post {
@@ -328,10 +329,10 @@ footer {
 }
 .flip-container:nth-child(odd) .back
 {
-	transform-origin: 25% 50%;
-	-webkit-transform-origin: 25% 50%;
-	-moz-transform-origin: 25% 50%;
-	-ms-transform-origin: 25% 50%;
+	transform-origin: calc(25% + -10px) 50%;;
+	-webkit-transform-origin: calc(25% + -10px) 50%;;
+	-moz-transform-origin: calc(25% + -10px) 50%;;
+	-ms-transform-origin: calc(25% + -10px) 50%;
 }
 .flip-container, .front, .back {
 	width: 330px;
