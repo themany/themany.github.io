@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  //max-width: 740px;
   padding: 0 10px;
   width: 100%;
   overflow: hidden;
@@ -242,6 +242,12 @@ nav {
 // .main
 //
 
+.posts
+{
+	max-width: 740px
+	margin:auto;
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -372,6 +378,8 @@ footer {
 .parallax__layer--back {
     -webkit-transform: translateZ(-1px);
     transform: translateZ(-1px);
+    background: url('http://artobserved.com/artimages/2013/02/Roy-Lichtenstein-Whaam-1963-Tate-Modernjpg.jpg');
+    background-size: 100% auto;
 }
 
 
