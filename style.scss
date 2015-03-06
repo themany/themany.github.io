@@ -306,12 +306,18 @@ footer {
     -ms-perspective: 1000;
     float: left;
     margin: 20px;
-    
+    position: relative;
+    z-index: 10;
     @include mobile
     {
     	margin-left:0px;
     	margin-right:0px;
     }
+}
+
+.flip-container
+{
+	z-index: 999;
 }
 
 .flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -320,9 +326,16 @@ footer {
     -moz-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
 }
+.flip-container:nth-child(odd) .back
+{
+	transform-origin: 25% 50%;
+	-webkit-transform-origin: 25% 50%;
+	-moz-transform-origin: 25% 50%;
+	-ms-transform-origin: 25% 50%;
+}
 .flip-container, .front, .back {
-	width: 320px;
-	height: 480px;
+	width: 330px;
+	height: 240px;
 }
 .flip-container:nth-child(2n + 2) .front
 {
@@ -371,6 +384,7 @@ footer {
 
 /* back, initially hidden pane */
 .back {
+	width: 700px;
 	padding: 20px;
 	transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
