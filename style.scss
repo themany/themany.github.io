@@ -153,7 +153,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  //margin-bottom: 50px;
 }
 
 .masthead {
@@ -280,7 +280,7 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  //margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
@@ -377,10 +377,11 @@ footer {
 }
 
 .parallax__layer--back {
-    -webkit-transform: translateZ(-1px);
-    transform: translateZ(-1px);
-    background: url('http://artobserved.com/artimages/2013/02/Roy-Lichtenstein-Whaam-1963-Tate-Modernjpg.jpg');
-    background-size: 100% auto;
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+  background: url("http://artobserved.com/artimages/2013/02/Roy-Lichtenstein-Whaam-1963-Tate-Modernjpg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 70vh;
 }
 
 
