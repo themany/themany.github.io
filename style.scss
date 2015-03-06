@@ -318,8 +318,12 @@ footer {
 	width: 320px;
 	height: 480px;
 }
-.flip-container:nth-child(odd) .front {
-	background: #00AA00;
+.flip-container:nth-child(2n + 2) .front
+{
+	background: #AA3939;
+}
+.flip-container:nth-child(3n + 3) .front {
+	background: #226666;
 }
 
 /* flip speed goes here */
@@ -332,7 +336,6 @@ footer {
 /* hide back of pane during swap */
 .front, .back {
 	backface-visibility: hidden;
-
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -343,7 +346,7 @@ footer {
 	color: white;
 	padding: 20px;
 	*background: url('http://upload.wikimedia.org/wikipedia/commons/a/a2/Marx_old.jpg');
-	background: #AA0000;
+	background: #7A9F35;
 	background-size: cover;
 	z-index: 2;
 	/* for firefox 31 */
@@ -354,6 +357,7 @@ footer {
 /* back, initially hidden pane */
 .back {
 	transform: rotateY(180deg);
+	background: #FFFFFF;
 }
 
 /*	PARALLAX!@	*/
