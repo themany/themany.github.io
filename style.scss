@@ -291,7 +291,14 @@ footer {
     perspective: 1000;
     float: left;
     margin: 20px;
+    
+    @include mobile
+    {
+    	margin-left:0px;
+    	margin-right:0px;
+    }
 }
+
 .flip-container:hover .flipper, .flip-container.hover .flipper {
     transform: rotateY(180deg);
 }
@@ -336,6 +343,38 @@ footer {
 .back {
 	transform: rotateY(180deg);
 }
+
+/*	PARALLAX!@	*/
+
+.parallax {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+}
+
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    //DEMO STYLES?
+    padding: 100vh 0;
+}
+
+.parallax__layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.parallax__layer--back {
+    -webkit-transform: translateZ(-1px);
+    transform: translateZ(-1px);
+}
+
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
