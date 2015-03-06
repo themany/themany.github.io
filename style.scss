@@ -364,6 +364,8 @@ footer {
     overflow-y: auto;
     -webkit-perspective: 1px;
     perspective: 1px;
+    -webkit-perspective-origin-x: 100%;
+    perspective-origin-x: 100%;
 }
 
 .parallax__layer {
@@ -372,6 +374,8 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
+    transform-origin-x: 100%;
+    -webkit-transform-origin-x: 100%;
     //DEMO STYLES?
     padding: 65vh 0;
 }
