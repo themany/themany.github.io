@@ -447,7 +447,14 @@ footer {
   background-size: 100% 70vh;
 }
 
-
+#title {
+  position: relative;
+  text-align: center;
+  margin-top: -50vh;
+  color: &white;
+  font-size: 28vh;
+  text-shadow: 9px 3px &black;
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
