@@ -446,6 +446,9 @@ footer {
   background-repeat: no-repeat;
   background-size: 100% 70vh;
   position: relative;
+  @include mobile {
+  	background-size: 200vw auto;
+  }
 }
 
 #title {
