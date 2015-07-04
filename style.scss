@@ -447,7 +447,8 @@ footer {
   background-size: 100% 70vh;
   position: relative;
   @include mobile {
-  	background-size: 200vw auto;
+  	background-size: auto 100vh;
+  	background-position: -50vw 0;
   }
 }
 
@@ -459,6 +460,12 @@ footer {
   font-size: 28vh;
   text-shadow: 9px 3px $black;
 }
+#title::before {
+  content: "the";
+  font-size: 50%;
+}
+
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
