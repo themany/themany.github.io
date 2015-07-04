@@ -451,9 +451,9 @@ footer {
   position: relative;
   text-align: center;
   margin-top: -50vh;
-  color: &white;
+  color: $white;
   font-size: 28vh;
-  text-shadow: 9px 3px &black;
+  text-shadow: 9px 3px $black;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
