@@ -1,28 +1,24 @@
 ---
 layout: default
 ---
-<div class="parallax">
-  <div class="parallax__layer parallax__layer--back"></div>
-  <div class="parallax__layer parallax__layer--base">
-    <div id='title'>MANY</div>
-    <div class="posts">
+<div class='container'>
+    <div id='title' class='double-border'>MANY</div>
+    <div class="posts spider-container">
       {% for post in site.posts %}
-        <article class="post flip-container">
-    
-          <div class='flipper'>
-            <div class='front'>
-              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <article class="post node">
+            <h1><a href="{{ site.baseurl }}{{ post.url }}" class="lightbox-trigger">{{ post.title }}</a></h1>
+            <div class="entry">
+                {{ post.content | truncatewords:55}}
             </div>
-            <div class='back'>
-              <div class="entry">
-                <h3>{{ post.title }}</h3>
-                  {{ post.content | truncatewords:55}}
-              </div>
-              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-            </div>
-          </div>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
         </article>
       {% endfor %}
     </div>
-  </div>
 </div>
+<div id='lightbox' class='lightbox-hidden'>
+    <div id='lightbox-content'>
+    </div>
+    <a id='lightbox-next' class='lightbox-nav'><i class="fa fa-caret-right"></i></a>
+    <a id='lightbox-prev' class='lightbox-nav'><i class="fa fa-caret-left"></i></a>
+</div>
+<div id='lightbox-modal' class='lightbox-hidden'></div>

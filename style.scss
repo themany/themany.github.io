@@ -35,7 +35,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   //font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: inherit; /*$darkerGray;*/
   font-weight: bold;
 
   line-height: 1.7;
@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  margin-top: 0px;
   font-size: 30px;
   a {
     color: inherit;
@@ -268,6 +269,8 @@ nav {
 }
 
 .post {
+  padding: 20px;
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -297,6 +300,48 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+
+/*SPIDERWEB*/
+
+
+.spider-container
+{
+    display: block; 
+    margin-left: 0px;
+    margin-top: 36px;
+}
+.node
+{
+    transform-origin: 50% 50%;
+    padding: 10px;
+    background: $darkerGray;
+    color: white;
+    position: relative;
+    display: block;
+    height: 120px;
+    width: 300px;
+    margin-bottom: 10px;
+    /*border-bottom: 5px solid black;*/
+    transition: height 1.5s, width 1s, border-color 1s, background 1s, color 1.5s;
+    transition-timing-function: ease;
+    overflow: hidden;
+    float: right;
+    clear: both;
+}
+.node:not(.selected) .entry
+{
+  display: none;
+}
+.selected
+{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-color: red;    
+    background: white;
+    color: $darkerGray;
 }
 
 /*FLIP!*/
@@ -452,12 +497,76 @@ footer {
   }
 }
 
+.pages
+{
+  overflow-x: hidden;
+}
+
+#lightbox
+{
+  position: fixed;
+  height: calc(100vh - 100px);
+  width: calc(100vw - 200px);
+  top: 50px;
+  left: 100px;
+  box-shadow: 0px 0px 10px 10px rgba(100,100,100,0.1);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 10;
+}
+#lightbox-modal
+{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(200,200,200,0.4);
+  top: 0px;
+  left: 0px;
+  z-index: 9;
+}
+.lightbox-hidden
+{
+  opacity: 0;
+  display: none;
+}
+.lightbox-active
+{
+  opacity: 1;
+  display: block;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+}
+.lightbox-nav
+{
+  position: absolute;
+  opacity: 0.1;
+  font-size: 120px;
+  top: calc(50% - 60px);
+}
+.lightbox-nav:hover
+{
+  opacity: 1;
+}
+#lightbox-next
+{
+  right: 0px;
+}
+#lightbox-prev
+{
+  left: 0px;
+}
 #title {
   position: relative;
   text-align: center;
-  margin-top: -50vh;
+  /*margin-top: -50vh;*/
   color: $white;
-  font-size: 28vh;
+  font-size: 24vh;
+  line-height: 17vh;
+  /*border-bottom: 10px solid black;*/
+  margin: 10px;
   text-shadow: 9px 3px $black;
   @include mobile {
   	font-size: 28vw;
@@ -472,6 +581,18 @@ footer {
   	margin-left: 10px;
   }
 }
+
+.double-border {
+  border-bottom: 10px solid $darkerGray;
+}
+.double-border::after {
+  width: 100%;
+  border-bottom: 4px solid $darkerGray;
+  content: "";
+  float: left;
+  margin-top: 12px;
+}
+
 
 
 

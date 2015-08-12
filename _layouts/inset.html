@@ -15,14 +15,7 @@
     <![endif]-->
 
     <script src="{{ site.baseurl }}/js/plugins.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function (e) {
-        lightbox();
-        spiderWeb();
-      });
-    </script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -30,33 +23,10 @@
   </head>
 
   <body>
-<!--    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <div class="site-info">
-            <p class="site-description"><a href="/">{{ site.description }}</a></p>
-          </div>
 
-          <nav style="margin-top: 0px;">
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/testing.html">Testing</a>
-          </nav>
-        </header>
-      </div>
-    </div>-->
-
-    <div id="main" role="main" class="container">
+    <div id="main" role="main" class="pages container">
       {{ content }}
     </div>
-<!--
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>-->
 
     {% include analytics.html %}
   </body>
