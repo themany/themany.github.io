@@ -26,10 +26,9 @@ body {
 
 .container {
   margin: 0 auto;
-  //max-width: 740px;
   padding: 0 10px;
   width: 100%;
-  max-width: 740px;
+  max-width: 960px;
   overflow: hidden;
 }
 
@@ -253,8 +252,8 @@ nav {
 
 .posts
 {
-	max-width: 740px;
-	margin:auto;
+  float: right;
+	max-width: 100%;
 	overflow:hidden;
 }
 
@@ -321,14 +320,17 @@ footer {
     position: relative;
     display: block;
     height: 120px;
-    width: 300px;
-    margin-bottom: 10px;
+    width: 280px;
+    margin: 10px;
     /*border-bottom: 5px solid black;*/
     transition: height 1.5s, width 1s, border-color 1s, background 1s, color 1.5s;
     transition-timing-function: ease;
     overflow: hidden;
     float: right;
-    clear: both;
+}
+.node:nth-child(3n) {
+  height: 260px;
+  float: left;
 }
 .node:not(.selected) .entry
 {
@@ -353,7 +355,7 @@ footer {
     -moz-perspective: 1000;
     -ms-perspective: 1000;
     float: left;
-    margin: 20px;
+    *margin: 20px;
     position: relative;
     z-index: 10;
     transition: z-index 0.6s;
@@ -366,13 +368,13 @@ footer {
     	margin-right:0px;
     }
 }
-
+/*
 .flip-container:hover
 {
 	z-index: 999;
-}
+}*/
 
-.flip-container:hover .flipper, .flip-container.hover .flipper {
+.flip-toggle .flipper {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
@@ -380,14 +382,22 @@ footer {
 }
 .flip-container:nth-child(odd) .back
 {
+  /*
 	transform-origin: calc(25% + -10px) 50%;;
 	-webkit-transform-origin: calc(25% + -10px) 50%;;
 	-moz-transform-origin: calc(25% + -10px) 50%;;
 	-ms-transform-origin: calc(25% + -10px) 50%;
+  */
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
 }
 .flip-container, .front, .back {
-	width: 330px;
-	height: 260px;
+	/*width: 330px;
+	height: 260px;*/
+  height: 100vh;
+  width: 100vw;
 }
 .flip-container:nth-child(2n + 2) .front
 {
@@ -421,10 +431,12 @@ footer {
 {
 	box-sizing: border-box;
 	color: white;
-	padding: 20px;
-	*background: url('http://upload.wikimedia.org/wikipedia/commons/a/a2/Marx_old.jpg');
-	background: #7A9F35;
-	background-size: cover;
+	*padding: 20px;
+	background: url('http://centmagazine.co.uk/wp-content/uploads/2013/06/See_USSR_Milner.jpg');
+	background-color: #F5F9F8;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 	z-index: 2;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
@@ -436,7 +448,7 @@ footer {
 
 /* back, initially hidden pane */
 .back {
-	width: 700px;
+	width: 100%;
 	padding: 20px;
 	transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
@@ -506,14 +518,15 @@ footer {
 {
   position: fixed;
   height: calc(100vh - 100px);
-  width: calc(100vw - 200px);
+  width: 100%;
+  max-width: 800px;
   top: 50px;
-  left: 100px;
+  left: calc(50% - 400px);
   box-shadow: 0px 0px 10px 10px rgba(100,100,100,0.1);
   background: white;
   padding: 20px;
   border-radius: 10px;
-  z-index: 10;
+  z-index: 12;
 }
 #lightbox-modal
 {
@@ -523,7 +536,7 @@ footer {
   background: rgba(200,200,200,0.4);
   top: 0px;
   left: 0px;
-  z-index: 9;
+  z-index: 11;
 }
 .lightbox-hidden
 {
@@ -581,20 +594,18 @@ footer {
   	margin-left: 10px;
   }
 }
-
-.double-border {
-  border-bottom: 10px solid $darkerGray;
-}
-.double-border::after {
+#title::after {
   width: 100%;
-  border-bottom: 4px solid $darkerGray;
-  content: "";
+  border-top: 4px solid #222;
+  content: "my name is legion, for we are many";
   float: left;
   margin-top: 12px;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: right;
+  color: black;
+  text-shadow: none;
 }
-
-
-
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

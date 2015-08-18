@@ -77,3 +77,11 @@ function spiderWeb () {
 	    }
 	}
 }
+
+function coverToggle () {
+	var cover = document.getElementsByClassName("front")[0];
+
+	cover.addEventListener("click", function (e) {
+		cover.parentNode.parentNode.className += " flip-toggle";
+	});
+}
