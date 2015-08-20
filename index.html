@@ -12,21 +12,18 @@ layout: default
                   {% for post in site.posts %}
                     <article class="post node">
                         <h1><a href="{{ site.baseurl }}{{ post.url }}" class="lightbox-trigger">{{ post.title }}</a></h1>
-                        <div class="entry">
-                            {{ post.content | truncatewords:55}}
-                        </div>
-                        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
                     </article>
                   {% endfor %}
+                </div>
+                <div id='lightbox' class='lightbox-hidden'>
+                    <div id='lightbox-content'>
+                    </div>
+                    <a id='lightbox-next' class='lightbox-nav'><i class="fa fa-caret-right"></i></a>
+                    <a id='lightbox-prev' class='lightbox-nav'><i class="fa fa-caret-left"></i></a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div id='lightbox' class='lightbox-hidden'>
-    <div id='lightbox-content'>
-    </div>
-    <a id='lightbox-next' class='lightbox-nav'><i class="fa fa-caret-right"></i></a>
-    <a id='lightbox-prev' class='lightbox-nav'><i class="fa fa-caret-left"></i></a>
-</div>
-<div id='lightbox-modal' class='lightbox-hidden'></div>
+
+<!--<div id='lightbox-modal' class='lightbox-hidden'></div>-->
