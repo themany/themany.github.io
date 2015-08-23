@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Post and New Left Reification
+title: The Post New Left And Reification
 ---
 *“Make America Great Again! [...] I would be the best jobs President that God ever created. 
 Let’s get to work!” - Donald Trump*
