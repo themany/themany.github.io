@@ -320,7 +320,7 @@ footer {
     color: white;
     position: relative;
     display: block;
-    height: 120px;
+    min-height: 120px;
     width: 280px;
     margin: 10px;
     /*border-bottom: 5px solid black;*/
@@ -437,7 +437,7 @@ footer {
 	box-sizing: border-box;
 	color: white;
 	*padding: 20px;
-	background: url('http://centmagazine.co.uk/wp-content/uploads/2013/06/See_USSR_Milner.jpg');
+	background: url('./images/splash.png');/*http://centmagazine.co.uk/wp-content/uploads/2013/06/See_USSR_Milner.jpg');*/
 	background-color: #F5F9F8;
   background-size: auto 100%;
   background-repeat: no-repeat;
@@ -525,10 +525,11 @@ footer {
   width: 600px;
   border-color: $darkGray;
   border-style: solid;
-  border-width: 4px 20px 0px 0px;
+  border-width: 0px 20px 0px 0px;
   padding-top: 20px;
   background: white;
   margin: 20px;
+  margin: 0px;
   z-index: 12;
   float: right;
   position: relative;
@@ -591,18 +592,17 @@ footer {
   text-align: center;
   /*margin-top: -50vh;*/
   color: $white;
-  font-size: 24vh;
-  line-height: 17vh;
-  /*border-bottom: 10px solid black;*/
-  margin: 10px;
-  text-shadow: 9px 3px $black;
+  font-size: 8vh;
+  line-height: 4vh;
+  border-bottom: 4px solid #333;
+  text-shadow: 3px 2px $black;
   transition: text-shadow 0.5s;
   @include mobile {
   	font-size: 28vw;
   }
 }
 #title:hover {
-    text-shadow: -8px 3px #CC0000;
+    text-shadow: -4px 2px #CC0000;
 }
 #title::before {
   content: "the";
@@ -614,16 +614,16 @@ footer {
   }
 }
 #title::after {
-  width: 100%;
-  border-top: 4px solid #222;
-  content: "my name is legion, for we are many";
-  float: left;
-  margin-top: -20px;
-  font-size: 20px;
-  line-height: 20px;
-  text-align: right;
-  color: black;
-  text-shadow: none;
+	width: 100%;
+	/* border-bottom: 4px solid #222; */
+	content: "my name is legion, for we are many";
+	float: left;
+	margin-top: -20px;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: right;
+	color: black;
+	text-shadow: none;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

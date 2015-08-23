@@ -8,18 +8,18 @@ layout: default
         <div class='back'>
             <div class='container'>
                 <div id='title'>MANY</div>
+				<div id='lightbox' class='lightbox-hidden'>
+                    <div id='lightbox-content'>
+                    </div>
+                    <a id='lightbox-next' class='lightbox-nav'><i class="fa fa-caret-right"></i></a>
+                    <a id='lightbox-prev' class='lightbox-nav'><i class="fa fa-caret-left"></i></a>
+                </div>
                 <div class="posts">
                   {% for post in site.posts %}
                     <article class="post node">
                         <h1><a href="{{ site.baseurl }}{{ post.url }}" class="lightbox-trigger">{{ post.title }}</a></h1>
                     </article>
                   {% endfor %}
-                </div>
-                <div id='lightbox' class='lightbox-hidden'>
-                    <div id='lightbox-content'>
-                    </div>
-                    <a id='lightbox-next' class='lightbox-nav'><i class="fa fa-caret-right"></i></a>
-                    <a id='lightbox-prev' class='lightbox-nav'><i class="fa fa-caret-left"></i></a>
                 </div>
             </div>
         </div>
