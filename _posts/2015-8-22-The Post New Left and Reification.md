@@ -79,7 +79,7 @@ Some tried this “moderate” approach, while others took more radical position
 
 The “counterculture” and the “political” did not form separate containers, and were part of the same milieu. Still, there was a slight distance between them. Some in the “counterculture” were more “political,” while others leaned towards the “a-political.” 
 
-Kommune 1 was on the “political” end of the counterculture, its founding members coming from the Socialist German Student Union (SDS). They were opposed to what they called “bourgeois” culture and its accompanying concepts like personal privacy; accordingly, their bathrooms were without doors. Leaders  and authority figures were said to have been abolished, and the only 
+Kommune 1 was on the “political” end of the counterculture, its founding members coming from the Socialist German Student Union (SDS). They were opposed to what they called “bourgeois” culture and its accompanying concepts like personal privacy; accordingly, their bathrooms were without doors. Leaders  and authority figures were said to have been abolished, and the only rule was to live out your life in front of the other members.
 
 Most importantly, the patriarchal nuclear family was seen as the basic building block of capitalism, and in particular, fascism. They sought to challenge its presence in every sphere of bourgeois life by living out the slogan, “the personal is the political.” “Mainstream” norms, like short hair for men, abstinence from drug use, or sexual exclusivity, were cast aside for those of the emergent counterculture.
 
@@ -87,6 +87,7 @@ The members of Komune 1 became celebrities due to their off-beat lifestyles, and
 
 Their growing notoriety brought famous guests, like Jimi Hendrix, as well as the media. Typically, the commune tried go beyond capitalist private property, and the idea of doing something for reward rather than passion. Living in capitalism does produce certain restraints, and so they interacted with the media on the condition that the commune got paid for any interview or photo shoot.
 
+<br>
 
 More than a bunch of dirty hippies though, the New Left was first and foremost a political movement, its origins lying before the rise of the counterculture.16 
 
