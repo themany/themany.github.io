@@ -53,10 +53,15 @@ With the idea of political correctness being bombarded from all sides, one may w
 
 The aforementioned “radical online activists” and “the liberal media” are currently part of the PC police, but the phenomenon of political correctness goes back much further. To identify the “culprits,” we will have to go back to the 1960's, examining that motley crew of radicals known as the New Left.
 
+<br>
 
 *Old Left, New Left, Post New Left*
 
+<br>
+
 *“I would think that if you understood what communism was, you would hope, you would pray on your knees, that we would someday become communists.” - Jane Fonda (1970)*
+
+<br>
 
 The typical narrative of the 1960s is told from the point of view of its main protagonist, the “counterculture.” Political upheaval, meanwhile, plays a supporting role; it becomes lost in a thick cloud of smoke and psychedelic patterns; drowned out in  rock and roll and “sexual liberation.”10
 
