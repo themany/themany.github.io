@@ -56,7 +56,11 @@ function createPages () {
 	var columns = Math.ceil(pages.clientHeight / height);
 	var columnWidth = width * columns;
 	pages.style.webkitColumns = columnWidth + "px " + columns;
+	pages.style.MozColumns = columnWidth + "px " + columns;
+	pages.style.columns = columnWidth + "px " + columns;
 	pages.style.height = height - 40 + "px";
+
+	console.log(pages, "blah");
 
 	document.getElementById("lightbox-next").addEventListener("click", function (e) {
 		pages.scrollLeft +=  width - 2;

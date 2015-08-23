@@ -517,6 +517,12 @@ footer {
 .pages
 {
   overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.pages .post
+{
+  max-height: 100%;
 }
 
 #lightbox
