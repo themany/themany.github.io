@@ -2,35 +2,35 @@
 layout: post
 title: The Post New Left Reification
 ---
-“Make America Great Again! [...] I would be the best jobs President that God ever created. 
-Let’s get to work!” - Donald Trump
+*“Make America Great Again! [...] I would be the best jobs President that God ever created. 
+Let’s get to work!” - Donald Trump*
 
 Donald Trump has always been half-man, half-cartoon; shocking and amazing the public with an ostentatious lack of taste, sporting his famed toupee, and littering his buildings with massive TRUMP signs. 
-
+  
 Somewhere along the line, though, this life must have gotten boring for “the Donald.” 
-
+  
 Trump's decision to consider running for president, in 2011, indicated that he was no longer content to merely be a mediocre businessman; he wanted to become the American Silvio Berlusconi. 
-
+  
 This year, he's running again, his racism on full display. The potential 2016 Republican presidential candidate has recently conjectured that “the Mexican Government is forcing their most unwanted people into the United States.”1 
-
+  
 These are people that are, according to Trump, “in many cases, criminals, drug dealers, rapists, etc.”, making the United States “a dumping ground for Mexico and, in fact, for many other parts of the world.” He also claimed that “infectious disease is pouring across the border,” which must be a Mexican only thing, because European-Americans have no history of this, whatsoever.
-
+  
 To soften his racism, Trump said “many fabulous people come in from Mexico and our country is better for it.” Of course, this only applies to the Mexicans that are here “legally.” According to Trump, the “good” Mexicans “are severely hurt” by the “bad” Mexicans who come in “illegally.” 
-
+  
 Trump is right in a way; there are drug dealers and rapists illegally coming into the United States from Mexico. But to insinuate that most undocumented Mexicans are rapists and murders is racist and factually incorrect; the majority of illegal immigrants are just trying to escape from poverty and escalating drug violence. 
-
+  
 The question is: what moral high ground does Trump occupy when his country is the world's largest arms exporter? Or when the United States has the world's highest consumption of illegal drugs (helping to fuel a drug war that is responsible for the arrival of many of the “rogue” elements that Trump detests)?
-
+  
 The passage of NAFTA, in 1993, created a “free trade” zone in the United States, Canada and Mexico. It also ensured that cheap (government subsidized) North American agriculture would flood the Mexican marketplace, managing to put millions of Mexican farmers out of business, and on the path to the United States. And yet, Trump finds the relationship between the United States and Mexico to be “totally one sided in [Mexico's] favor on both illegal immigration and trade.”
-
-In short, Donald Trump and his ilk are helping to create the very situation that they later complain about. 
-
+  
+In short, Donald Trump and his ilk are helping to create the very situation that they later complain about.
+  
 One could say that a lot of Trump's popularity comes from the backlash against the culture of (so-called) “political correctness.” When Macy’s, NBC, Serta and NASCAR decided to cut ties with Trump, he responded that they “have all taken the weak and very sad position of being politically correct,” and do not know “what is good for our country.” 
-
+  
 During a recent GOP debate, Fox News anchor Megyn Kelly made light of his sexist remarks: “Mr. Trump, one of the things people love about you is you speak your mind and you don't use a politician's filter. However that is not without its downsides, in particular when it comes to women. You've called women you don't like fat pigs, dogs, slobs and disgusting animals. Your twitter account--”2
-
+  
 Trump interrupted: “Only Rosie O'Donnell.”
-
+  
 “For the record, it was well beyond Rosie O’Donnell,” retorted Kelly.
 
 “I'm sure it was,” Trump conceded.
@@ -52,9 +52,9 @@ With the idea of political correctness being bombarded from all sides, one may w
 The aforementioned “radical online activists” and “the liberal media” are currently part of the PC police, but the phenomenon of political correctness goes back much further. To identify the “culprits,” we will have to go back to the 1960's, examining that motley crew of radicals known as the New Left.
 
 
-Old Left, New Left, Post New Left
+*Old Left, New Left, Post New Left*
 
-“I would think that if you understood what communism was, you would hope, you would pray on your knees, that we would someday become communists.” - Jane Fonda (1970)
+*“I would think that if you understood what communism was, you would hope, you would pray on your knees, that we would someday become communists.” - Jane Fonda (1970)*
 
 The typical narrative of the 1960s is told from the point of view of its main protagonist, the “counterculture.” Political upheaval, meanwhile, plays a supporting role; it becomes lost in a thick cloud of smoke and psychedelic patterns; drowned out in  rock and roll and “sexual liberation.”10
 
