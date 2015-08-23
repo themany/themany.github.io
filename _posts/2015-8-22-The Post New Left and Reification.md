@@ -4,8 +4,7 @@ title: The Post New Left Reification
 ---
 *“Make America Great Again! [...] I would be the best jobs President that God ever created. 
 Let’s get to work!” - Donald Trump*
-
-
+<br>
 Donald Trump has always been half-man, half-cartoon; shocking and amazing the public with an ostentatious lack of taste, sporting his famed toupee, and littering his buildings with massive TRUMP signs. 
   
 Somewhere along the line, though, this life must have gotten boring for “the Donald.” 
